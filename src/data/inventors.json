@@ -1,39 +1,74 @@
 {
-    "inventors": [
-        {
-                "first": "Albert",
-                "last": "Einstein",
-                "year": 1879
-        },
-        {
-                "first": "Isaac",
-                "last": "Newton",
-                "year": 1643
-        },
-        {
-                "first": "Galileo",
-                "last": "Galilei",
-                "year": 1564
-        },
-        {
-                "first": "Marie",
-                "last": "Curie",
-                "year": 1867
-        },
-        {
-                "first": "Johannes",
-                "last": "Kepler",
-                "year": 1571
-        },
-        {
-                "first": "Nicolaus",
-                "last": "Copernicus",
-                "year": 1473
-        },
-        {
-                "first": "Max",
-                "last": "Planck",
-                "year": 1858
-        }
-    ]
+  "inventors": [
+    {
+      "id": 8752,
+      "first": "Albert",
+      "last": "Einstein",
+      "year": 1879,
+      "known_for": [
+        "Quantam theory, Theory of special relativity, Linking energy to mass and the speed of light"
+      ],
+      "fun_fact": "Three major inventions dervied from Einstein's discoveries are: Google Maps, the clock on your cell phone, and lasers."
+    },
+    {
+      "id": 8753,
+      "first": "Isaac",
+      "last": "Newton",
+      "year": 1643,
+      "known_for": [
+        "Basic principles of modern physics"
+      ],
+      "fun_fact": "He lived through a plague, and was forced to leave university. In this time he wrote what could become the foundations of calculus."
+    },
+    {
+      "id": 8754,
+      "first": "Galileo",
+      "last": "Galilei",
+      "year": 1564,
+      "known_for": [
+        "An early type of thermometer, Significan't improvements to the telescope, Discovered attributes of Jupiter and Saturn"
+      ],
+      "fun_fact": "He was tried by the Roman Inquisition and spent his final days under house arrest."
+    },
+    {
+      "id": 8755,
+      "first": "Marie",
+      "last": "Curie",
+      "year": 1867,
+      "known_for": [
+        "Discovery of polonium and radium"
+      ],
+      "fun_fact": "She was awarded two Nobel Prizes in her lifetime."
+    },
+    {
+      "id": 8756,
+      "first": "Johannes",
+      "last": "Kepler",
+      "year": 1571,
+      "known_for": [
+        "Three laws of planetary motion, Provided a new and correct account of how vision occurs"
+      ],
+      "fun_fact": "Originally had set out to be a theologian, and believed in a divine design of the universe. His religious beliefs were fundamental throughout his career."
+    },
+    {
+      "id": 8757,
+      "first": "Nicolaus",
+      "last": "Copernicus",
+      "year": 1473,
+      "known_for": [
+        "Heliocentric model of the universe, Initiator of the Scientific Revolution"
+      ],
+      "fun_fact": "He had fluency in six languages: Latin, German, Polish, Greek, Italian and Hebrew."
+    },
+    {
+      "id": 8758,
+      "first": "Max",
+      "last": "Planck",
+      "year": 1858,
+      "known_for": [
+        "Discovery of the quantam of action"
+      ],
+      "fun_fact": "He was teh first prominent physicist to champion Albert Einstein's special theory of relativity."
+    }
+  ]
 }
