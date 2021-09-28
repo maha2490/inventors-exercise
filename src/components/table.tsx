@@ -11,6 +11,34 @@ import DialogActions from "@material-ui/core/DialogActions"
 type UiInventor = { id: number, firstName: string, funFact: string, knownFor: string[], lastName: string, year: number };
 type OpenModalState = { isOpen: true, inventor?: UiInventor };
 
+export const columns = [
+  {
+    name: "firstName",
+    label: "First Name",
+    options: {
+      sort: true
+    }
+  },
+  {
+    name: "lastName",
+    label: "Last Name",
+    options: {
+      sort: true
+    }
+  },
+  {
+    name: "year",
+    label: "Year",
+    options: {
+      sort: true
+    }
+  },
+  {
+    name: "knownFor",
+    label: "Known For"
+  }
+];
+
 export const DataTable = () => {
   const [factModalState, setFactModalState] = React.useState<{ isOpen: false } | OpenModalState>({ isOpen: false });
   const inventorsData = React.useMemo<UiInventor[]>(() => inventorsJson.inventors.map(invntr => ({
@@ -21,42 +49,16 @@ export const DataTable = () => {
     knownFor: invntr.known_for,
     funFact: invntr.fun_fact
   })), [])
-  const columns = [
-    {
-      name: "firstName",
-      label: "First Name",
-      options: {
-        sort: true
-      }
-    },
-    {
-      name: "lastName",
-      label: "Last Name",
-      options: {
-        sort: true
-      }
-    },
-    {
-      name: "year",
-      label: "Year",
-      options: {
-        sort: true
-      }
-    },
-    {
-      name: "knownFor",
-      label: "Known For"
-    }
-  ];
 
   const handleRowClick = (rowData: string[]) => setFactModalState({ isOpen: true, inventor: inventorsData.find(invntr => invntr.firstName === rowData[0]) });
   const handleModalClose = () => setFactModalState({ isOpen: false })
 
   return (
     <>
+      <h3>Well-known Inventors</h3>
       <div id="table-container">
         <MuiDataTable
-          title="Inventors"
+          title=""
           data={inventorsData}
           columns={columns}
           options={{
