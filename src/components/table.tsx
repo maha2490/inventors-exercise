@@ -15,27 +15,21 @@ export const columns = [
   {
     name: "firstName",
     label: "First Name",
-    options: {
-      sort: true
-    }
   },
   {
     name: "lastName",
     label: "Last Name",
-    options: {
-      sort: true
-    }
   },
   {
     name: "year",
     label: "Year",
-    options: {
-      sort: true
-    }
   },
   {
     name: "knownFor",
-    label: "Known For"
+    label: "Known For",
+    options: {
+      sort: false
+    }
   }
 ];
 
@@ -66,6 +60,7 @@ export const DataTable = () => {
             onRowClick: handleRowClick,
             print: false,
             selectableRows: "none",
+            sortOrder: { name: "year", direction: "asc" },
             tableId: "inventors-table"
           }}
         />

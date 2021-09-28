@@ -8,7 +8,7 @@
       "known_for": [
         "Quantam theory, Theory of special relativity, Linking energy to mass and the speed of light"
       ],
-      "fun_fact": "Three major inventions dervied from Einstein's discoveries are: Google Maps, the clock on your cell phone, and lasers."
+      "fun_fact": "Three major inventions derived from Einstein's discoveries are: Google Maps, the clock on your cell phone, and lasers."
     },
     {
       "id": 8753,
@@ -26,7 +26,7 @@
       "last": "Galilei",
       "year": 1564,
       "known_for": [
-        "An early type of thermometer, Significan't improvements to the telescope, Discovered attributes of Jupiter and Saturn"
+        "An early type of thermometer, Significant improvements to the telescope, Discovered attributes of Jupiter and Saturn"
       ],
       "fun_fact": "He was tried by the Roman Inquisition and spent his final days under house arrest."
     },
@@ -61,14 +61,54 @@
       "fun_fact": "He had fluency in six languages: Latin, German, Polish, Greek, Italian and Hebrew."
     },
     {
-      "id": 8758,
-      "first": "Max",
-      "last": "Planck",
-      "year": 1858,
+      "id": 8759,
+      "first": "Johannes",
+      "last": "Gutenberg",
+      "year": 1450,
       "known_for": [
-        "Discovery of the quantam of action"
+        "The invention of the Gutenberg press that used moveable type"
       ],
-      "fun_fact": "He was teh first prominent physicist to champion Albert Einstein's special theory of relativity."
+      "fun_fact": " In 1997, Time–Life magazine picked Gutenberg's invention as the most important of the second millennium."
+    },
+    {
+      "id": 8760,
+      "first": "George",
+      "last": "Washington Carver",
+      "year": 1904,
+      "known_for": [
+        "Agricultural chemistry - invented everyday uses from common agricultural items"
+      ],
+      "fun_fact": "During the last two decades of his life, Carver seemed to enjoy his celebrity status. He was often on the road promoting Tuskegee University, peanuts, and racial harmony."
+    },
+    {
+      "id": 8761,
+      "first": "Nikola",
+      "last": "Tesla",
+      "year": 1893,
+      "known_for": [
+        "Created fluorescent lighting, Alternating current electrical supply system"
+      ],
+      "fun_fact": "As his name might indicate, Tesla is the namesake for the modern American electrics company."
+    },
+    {
+      "id": 8762,
+      "first": "Tim",
+      "last": "Berners-Lee",
+      "year": 1989,
+      "known_for": [
+        "Scientist credited for creation of the internet"
+      ],
+      "fun_fact": "He is the current director of the W3C, and implemented the first Web browser and server."
+    },
+    {
+      "id": 8763,
+      "first": "Hedy",
+      "last": "Lamarr",
+      "year": 1942,
+      "known_for": [
+        "Inventing a radio-guidance system for torpedoes in WW II."
+      ],
+      "fun_fact": "She is often recognized as an early Hollywood actress, and credited as laying the ground work for modern wifi."
     }
   ]
 }
