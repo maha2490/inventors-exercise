@@ -55,8 +55,8 @@ export const DataTable = () => {
 
   return (
     <>
-      <h3>Well-known Inventors</h3>
-      <div id="table-container">
+      <h3 id="inventors-table-title">Well-known Inventors</h3>
+      <div id="table-container" aria-labelledby="inventors-table-title">
         <MuiDataTable
           title=""
           data={inventorsData}

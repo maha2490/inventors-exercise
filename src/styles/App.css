@@ -4,6 +4,20 @@
   height: 100vh;
 }
 
+#inventors-table-title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 900px;
+  padding: 24px;
+  margin: 0;
+}
+
 #table-container {
   padding: 20px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+tr[id^="MUIDataTableBodyRow-inventors-table-"] {
+  cursor: pointer;
 }
