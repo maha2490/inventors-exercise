@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/maha2490/inventors-exercise/static/css/main.34825332.chunk.css",
-    "main.js": "/maha2490/inventors-exercise/static/js/main.a74b35aa.chunk.js",
-    "main.js.map": "/maha2490/inventors-exercise/static/js/main.a74b35aa.chunk.js.map",
-    "runtime-main.js": "/maha2490/inventors-exercise/static/js/runtime-main.43b1ca6b.js",
-    "runtime-main.js.map": "/maha2490/inventors-exercise/static/js/runtime-main.43b1ca6b.js.map",
-    "static/js/2.91b5a57d.chunk.js": "/maha2490/inventors-exercise/static/js/2.91b5a57d.chunk.js",
-    "static/js/2.91b5a57d.chunk.js.map": "/maha2490/inventors-exercise/static/js/2.91b5a57d.chunk.js.map",
-    "static/js/3.ec98f716.chunk.js": "/maha2490/inventors-exercise/static/js/3.ec98f716.chunk.js",
-    "static/js/3.ec98f716.chunk.js.map": "/maha2490/inventors-exercise/static/js/3.ec98f716.chunk.js.map",
-    "index.html": "/maha2490/inventors-exercise/index.html",
-    "static/css/main.34825332.chunk.css.map": "/maha2490/inventors-exercise/static/css/main.34825332.chunk.css.map",
-    "static/js/2.91b5a57d.chunk.js.LICENSE.txt": "/maha2490/inventors-exercise/static/js/2.91b5a57d.chunk.js.LICENSE.txt"
+    "main.css": "/inventors-exercise/static/css/main.34825332.chunk.css",
+    "main.js": "/inventors-exercise/static/js/main.a74b35aa.chunk.js",
+    "main.js.map": "/inventors-exercise/static/js/main.a74b35aa.chunk.js.map",
+    "runtime-main.js": "/inventors-exercise/static/js/runtime-main.0b0f0102.js",
+    "runtime-main.js.map": "/inventors-exercise/static/js/runtime-main.0b0f0102.js.map",
+    "static/js/2.91b5a57d.chunk.js": "/inventors-exercise/static/js/2.91b5a57d.chunk.js",
+    "static/js/2.91b5a57d.chunk.js.map": "/inventors-exercise/static/js/2.91b5a57d.chunk.js.map",
+    "static/js/3.ec98f716.chunk.js": "/inventors-exercise/static/js/3.ec98f716.chunk.js",
+    "static/js/3.ec98f716.chunk.js.map": "/inventors-exercise/static/js/3.ec98f716.chunk.js.map",
+    "index.html": "/inventors-exercise/index.html",
+    "static/css/main.34825332.chunk.css.map": "/inventors-exercise/static/css/main.34825332.chunk.css.map",
+    "static/js/2.91b5a57d.chunk.js.LICENSE.txt": "/inventors-exercise/static/js/2.91b5a57d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.43b1ca6b.js",
+    "static/js/runtime-main.0b0f0102.js",
     "static/js/2.91b5a57d.chunk.js",
     "static/css/main.34825332.chunk.css",
     "static/js/main.a74b35aa.chunk.js"
