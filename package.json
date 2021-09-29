@@ -1,7 +1,12 @@
 {
   "name": "inventors-exercise",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "homepage": "https://maha2490.github.io/inventors-exercise/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maha2490/inventors-exercise"
+  },
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
@@ -20,13 +25,16 @@
     "web-vitals": "^1.0.1"
   },
   "devDependencies": {
-    "@types/mui-datatables": "^3.7.7"
+    "@types/mui-datatables": "^3.7.7",
+    "gh-pages": "^3.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
